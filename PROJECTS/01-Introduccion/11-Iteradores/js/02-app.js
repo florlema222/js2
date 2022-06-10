@@ -9,3 +9,11 @@ for ( let i = 1; i<=100; i++) {
     console.log(`${i} FIZZ!`);
   }
 }
+
+// for of
+
+const pendientes = ["comer", "deberes", "limpiar"];
+
+for (let pendiente of pendientes) { //pendiente es como i
+  console.log(pendiente);
+}
