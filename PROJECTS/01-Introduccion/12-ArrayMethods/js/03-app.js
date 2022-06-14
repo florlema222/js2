@@ -22,3 +22,11 @@ console.log (resultado5);
 const resultado6 = carrito3.find( producto => producto.nombre === "Tablet");
 console.log(resultado6);
 
+
+// every, devuelve booleano si todos cumplen o no la condicion dada
+const resultado7 = carrito3.every( producto => producto.nombre === "Tablet"); //false, no tods cumplen
+const resultado8 = carrito3.every( producto => producto.precio < 1000 ); //true, todos menores que mil
+console.log(resultado7);
+console.log(resultado8);
+
+//la version para verificar que al menos uno cumpla la condicion es con .some
